@@ -7,7 +7,7 @@ import babel from 'vite-plugin-babel';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/fzheye/',
+
   plugins: [
     vue(),
     vueDevTools(),
@@ -18,5 +18,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  
+
 })
